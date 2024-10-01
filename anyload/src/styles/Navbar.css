@@ -1,0 +1,32 @@
+.primary-nav {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f8f7ff;
+  filter: drop-shadow(0px 2px 10px #d3d3d3);
+}
+
+.primary-nav > * {
+  flex: 1 1 0px;
+}
+
+.logo-container {
+  font-family: 'Sixtyfour Convergence', sans-serif;
+  display: flex;
+  gap: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.cta-container {
+  display: flex;
+  justify-content: end;
+}
